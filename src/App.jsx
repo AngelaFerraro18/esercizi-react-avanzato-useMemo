@@ -1,4 +1,5 @@
-import SlowSquareCalculator from "./components/calculator";
+import SlowSquareCalculator from "./components/Calculator";
+import OrdinaProdotti from "./components/sortOrder";
 import FiltroUtenti from "./components/userFilter";
 
 function App() {
@@ -7,6 +8,7 @@ function App() {
     <>
       <SlowSquareCalculator />
       <FiltroUtenti />
+      <OrdinaProdotti />
     </>
   )
 }
