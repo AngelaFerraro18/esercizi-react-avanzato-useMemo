@@ -1,3 +1,4 @@
+import FiltroLibri from "./components/BookFilter";
 import SlowSquareCalculator from "./components/Calculator";
 import Carrello from "./components/Carrello";
 import OrdinaProdotti from "./components/sortOrder";
@@ -11,6 +12,7 @@ function App() {
       <FiltroUtenti />
       <OrdinaProdotti />
       <Carrello />
+      <FiltroLibri />
     </>
   )
 }

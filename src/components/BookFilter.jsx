@@ -11,7 +11,11 @@ function FiltroLibri() {
     const [query, setQuery] = useState('');
 
     // TODO: filtra libri che includono la query nel titolo
-    const libriFiltrati = null;
+    const libriFiltrati = useMemo(() => {
+
+        return libri.filter(l => l.titolo.toLowerCase().includes(query.trim().toLowerCase()));
+
+    }, [query]);
 
     return (
         <div>
